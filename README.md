@@ -34,7 +34,6 @@ Full-stack campus ride-sharing: passengers book seats, drivers offer rides after
 ## Config notes
 - `app.cors.allowed-origin` — React dev server (e.g. `http://localhost:3000`).
 - `spring.jpa.open-in-view=false` — Tighter JPA session boundaries.
-- `application-dev.properties` — H2 when `spring.profiles.active=dev`.
 
 ## Improvements (talk track)
 - CSRF strategy for cookie-based SPA in production.
